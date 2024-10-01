@@ -11,7 +11,6 @@ export const Child = (props) => {
     return (
         <div>
             <h1>Child</h1>
-
             <p>Nombre actual: {props.name}</p>
             <button className="btn btn-primary" onClick={handleChangeName} >Cambiar nombre</button>
         </div>
