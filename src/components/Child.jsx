@@ -15,8 +15,8 @@ export const Child = (props) => {
             <button className="btn btn-primary" onClick={handleChangeName} >Cambiar nombre</button>
         </div>
     )
-}
-Child.PropTypes = {
+}   
+Child.propTypes = {
     name: PropTypes.string,
     setName: PropTypes.func
 }

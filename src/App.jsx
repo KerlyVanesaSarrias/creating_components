@@ -16,7 +16,7 @@ function App() {
           <hr className='white-hr'/>
           <FourthComponent />
           <hr className='white-hr'/>
-          <Child 
+          <Child
             name={name}
             setName={setName} 
           />
