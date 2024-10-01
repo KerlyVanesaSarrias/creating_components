@@ -16,7 +16,7 @@ export const FirstComponent = () => {
 
     return (
         <>
-            <div>MyFirstComponent</div>
+            <h1>MyFirstComponent</h1>
             <div className="container mt-4">
                 <h1>Temas de React</h1>
                 <ul>
